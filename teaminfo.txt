@@ -1,5 +1,4 @@
-universitid  name
-2110040081   siva jyothi
-2110040096   ambika
-2110040097   divya sahithi
-2110040103   nandini reddy
+UNIVERSITY ID   NAME
+2110040081      SIVA JYOTHI
+2110040097      DIVYA SAHITHI
+2110040103      NANDINI REDDY

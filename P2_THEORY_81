@@ -1,0 +1,39 @@
+# TMPERATURE-CONTROLED FAN:
+
+The main goal of this project is to compute and monitor the ambient temperature and adjust the fan's speed as the temperature changes, meaning that the speed should grow as the temperature rises and fall as it falls.
+The LCD, with which the 8051 microcontroller is interfaced, would show the temperature. The microprocessor sends a PWM wave to the fan, which it uses to manage the temperature. 
+In low temperatures, the fan receives less power, while in high temperatures, it receives more.
+
+# OBJECTIVE:
+
+The goal of this project is to create a fan whose speed is temperature-dependent.
+The project's basic design is that a temperature sensor reads the ambient temperature and outputs an analogue signal that is supplied to an ADC, which converts it to a digital signal (with values in HEX format), which is then provided to a microcontroller.
+The speed of the DC fan will now be controlled based on temperature using a technology. 
+Through pulse width modulation, the fan's speed changes as the width and delay of the signal change.
+
+# BENEFITS:
+
+We can conserve a lot of energy throughout the day by adjusting the fan's speed according to the temperature.
+We can save a lot of energy if the speed of a fan is controlled and only used when necessary, as opposed to operating it continuously at maximum speed, which uses a lot of energy.
+
+# WORKING:
+
+PWM, or pulse width modulation, is the key operating principle.
+It is a method for regulating the amount of power output provided to various electric equipment.
+The supply and load switches are quickly turned on and off to adjust the average value of voltage (and current) provided to the load. 
+The amount of electricity delivered to the load increases while the switch is on for a longer period of time compared to when it is off. 
+Therefore, the fan will receive more power and whirl more quickly if the switch is left on for a longer period of time. 
+The switch can be programmed to stay on for a longer period of time when the temperature is greater and for a shorter period of time when the temperature is lower.
+
+# COMPONENTS:
+Microcontroller AT89C52
+ADC0804
+16*2 LCD Display
+Temperature Sensor LM35
+Resistors
+Capacitors
+Diodes
+Crystal Oscillator 12MHz
+Electric Fan
+Voltage Regulator (7805)
+Potentiometer (10K)
